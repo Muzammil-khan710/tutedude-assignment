@@ -1,0 +1,9 @@
+.title {
+    margin: 0 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        margin: 1rem 2rem;
+    }
+}

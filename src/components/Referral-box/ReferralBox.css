@@ -1,0 +1,24 @@
+.ref-container {
+    margin-top: 2rem;
+}
+
+.ref-heading {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(128, 0, 128, 1);
+}
+
+.ref-input {
+    padding: 1rem 3rem;
+    word-spacing: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 0, 128, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .ref-container {
+        margin: 2rem;
+    }
+
+}
+    
