@@ -1,15 +1,17 @@
-import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Navbar } from './components/Navbar/Navbar'
 import { PageOne } from './pages/Page-one'
+import { PageTwo } from './pages/Page-two'
 
 
 function App() {
 
   return (
     <div className="App">
-      <PageOne/>
-      {/* <Navbar/> */}
+      <Routes>
+        <Route path='/' element={<PageOne/>} />
+        <Route path='/pagetwo' element={<PageTwo/>} />
+      </Routes>
     </div>
 
   )

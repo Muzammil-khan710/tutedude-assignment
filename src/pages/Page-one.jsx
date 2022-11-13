@@ -1,8 +1,4 @@
-import { Content } from '../components/Content/Content'
-import { Dashboard } from '../components/Dashboard/Dashboard'
-import { Navbar } from '../components/Navbar/Navbar'
-import { ReferralBox } from '../components/Referral-box/ReferralBox'
-import { Title } from '../components/Title/Title'
+import { Content, Title, Dashboard, Navbar, ReferralBox } from '../components'
 import "./pages.css"
 
 const PageOne = () => {

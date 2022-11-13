@@ -1,0 +1,141 @@
+.content-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-two-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(128, 0, 128, 1);
+}
+
+.content-two-input {
+    padding: 10px 0;
+    border-radius: 10px;
+    border:1.5px solid #DFDFDF;
+}
+
+.content-two-referral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wallet-box {
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    height: 85px;
+    width: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-title {
+    color: rgba(128, 0, 128, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.content-two-container {
+    margin: 3rem 10rem;
+}    
+
+.content-two-stitle {
+    font-weight: 600;
+    font-size: 20px;
+    color:rgba(128, 0, 128, 1);
+    margin-top: 3rem;
+}
+
+.content-two-stitle > span {
+    color: rgba(98, 98, 98, 1);
+    font-weight: 400;
+}
+
+.card {
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    width: 358px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-name {
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin: 1rem;
+}
+
+.card-name > span {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.card-course-header {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 1rem;
+    padding: 10px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 90px;
+    overflow-y: scroll;
+    margin-right: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: 800080;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}   
+
+.course-list > li {
+    font-size: 14px;
+    font-weight: 400;
+    list-style: none;
+    border-radius: 20px;
+    border: 1.5px solid #EEAEAE;
+    padding: 10px;
+}
+
+.card-course-header > span {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-two-container {
+        margin: 3rem 2rem;
+    }
+
+    .content-two-stitle {
+        font-size: 24px;
+    }
+}
