@@ -5,12 +5,11 @@ import { PageTwo } from './pages/Page-two'
 
 
 function App() {
-
   return (
     <div className="App">
       <Routes>
         <Route path='/' element={<PageOne/>} />
-        <Route path='/pagetwo' element={<PageTwo/>} />
+        <Route path='/second' element={<PageTwo/>} />
       </Routes>
     </div>
 
